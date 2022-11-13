@@ -1,0 +1,113 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.ttf?2ddb23abb77d1daa6addc6b05ac4be09") format("truetype"),
+url("./flaticon_mycollection.woff?2ddb23abb77d1daa6addc6b05ac4be09") format("woff"),
+url("./flaticon_mycollection.woff2?2ddb23abb77d1daa6addc6b05ac4be09") format("woff2"),
+url("./flaticon_mycollection.eot?2ddb23abb77d1daa6addc6b05ac4be09#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?2ddb23abb77d1daa6addc6b05ac4be09#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "abstract-art": "\f101",
+    "abstract": "\f102",
+    "art": "\f103",
+    "clothes": "\f104",
+    "computer": "\f105",
+    "crown-1": "\f106",
+    "crown": "\f107",
+    "diadem": "\f108",
+    "fashion-design-1": "\f109",
+    "laurel-wreath-2": "\f10a",
+    "laurel-wreath-3": "\f10b",
+    "night-mode-1": "\f10c",
+    "night-mode": "\f10d",
+    "sketch-1": "\f10e",
+    "sketch": "\f10f",
+    "starry-night": "\f110",
+    "sun": "\f111",
+    "sunrise": "\f112",
+    "sunset": "\f113",
+    "t-shirt": "\f114",
+    "tshirt": "\f115",
+    "web-design": "\f116",
+);
+
+.flaticon-abstract-art:before {
+    content: map-get($flaticon_mycollection-map, "abstract-art");
+}
+.flaticon-abstract:before {
+    content: map-get($flaticon_mycollection-map, "abstract");
+}
+.flaticon-art:before {
+    content: map-get($flaticon_mycollection-map, "art");
+}
+.flaticon-clothes:before {
+    content: map-get($flaticon_mycollection-map, "clothes");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon_mycollection-map, "computer");
+}
+.flaticon-crown-1:before {
+    content: map-get($flaticon_mycollection-map, "crown-1");
+}
+.flaticon-crown:before {
+    content: map-get($flaticon_mycollection-map, "crown");
+}
+.flaticon-diadem:before {
+    content: map-get($flaticon_mycollection-map, "diadem");
+}
+.flaticon-fashion-design-1:before {
+    content: map-get($flaticon_mycollection-map, "fashion-design-1");
+}
+.flaticon-laurel-wreath-2:before {
+    content: map-get($flaticon_mycollection-map, "laurel-wreath-2");
+}
+.flaticon-laurel-wreath-3:before {
+    content: map-get($flaticon_mycollection-map, "laurel-wreath-3");
+}
+.flaticon-night-mode-1:before {
+    content: map-get($flaticon_mycollection-map, "night-mode-1");
+}
+.flaticon-night-mode:before {
+    content: map-get($flaticon_mycollection-map, "night-mode");
+}
+.flaticon-sketch-1:before {
+    content: map-get($flaticon_mycollection-map, "sketch-1");
+}
+.flaticon-sketch:before {
+    content: map-get($flaticon_mycollection-map, "sketch");
+}
+.flaticon-starry-night:before {
+    content: map-get($flaticon_mycollection-map, "starry-night");
+}
+.flaticon-sun:before {
+    content: map-get($flaticon_mycollection-map, "sun");
+}
+.flaticon-sunrise:before {
+    content: map-get($flaticon_mycollection-map, "sunrise");
+}
+.flaticon-sunset:before {
+    content: map-get($flaticon_mycollection-map, "sunset");
+}
+.flaticon-t-shirt:before {
+    content: map-get($flaticon_mycollection-map, "t-shirt");
+}
+.flaticon-tshirt:before {
+    content: map-get($flaticon_mycollection-map, "tshirt");
+}
+.flaticon-web-design:before {
+    content: map-get($flaticon_mycollection-map, "web-design");
+}
